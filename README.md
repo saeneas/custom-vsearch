@@ -20,6 +20,7 @@ uvicorn main:app --reload
 ```
 
 Query with 
+
 ```
 curl localhost:8000/vectors/ -H "Content-Type: application/json" -d '{"text":"give me vecs"}'
 ```
